@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Government BC Hostel – Official Website</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-emblem">G</div>
+    <div class="nav-logo-text">
+      Govt. BC Hostel
+      <span>Backward Classes Department</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#warden">Warden</a></li>
+    <li><a href="#menu">Food Menu</a></li>
+    <li><a href="#masters">Food Masters</a></li>
+    <li><a href="#video">Gallery</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="btn-primary"><a href="./assets/Application form.pdf" download="Application form">Apply Now</a></button>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="home" class="hero">
+  <div class="hero-grid-pattern"></div>
+  <div class="hero-content">
+    <div>
+      <div class="hero-badge">Government of AP · Official Hostel</div>
+      <h1>Free Hostel for <em>BC Students</em> Building Tomorrow's Leaders</h1>
+      <p class="hero-desc">
+        Fully-funded residential facility for students from 10th standard to undergraduate level.
+        We provide free accommodation, nutritious meals, high-speed Wi-Fi, and a supportive environment to help you achieve academic excellence.
+      </p>
+      <div class="hero-ctas">
+        <button class="btn-primary"><a href="./assets/Application form.pdf" download="Application form" class="btn-primary">Apply Now</a></button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card"><div class="num">200+</div><div class="lbl">Students Hosted</div></div>
+        <div class="stat-card"><div class="num">15+</div><div class="lbl">Years of Service</div></div>
+        <div class="stat-card"><div class="num">100%</div><div class="lbl">Free Facilities</div></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hostel-card-preview">
+        <h3>✦ What We Offer — Absolutely Free</h3>
+        <div class="facilities-grid">
+          <div class="facility-pill"><div class="icon">🛏</div>Room & Board</div>
+          <div class="facility-pill"><div class="icon">🍱</div>Daily Meals</div>
+          <div class="facility-pill"><div class="icon">📶</div>Wi-Fi Internet</div>
+          <div class="facility-pill"><div class="icon">📚</div>Study Hall</div>
+          <div class="facility-pill"><div class="icon">🏋️</div>Recreation</div>
+          <div class="facility-pill"><div class="icon">🔒</div>24/7 Security</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-down">
+    <span>Scroll</span><span class="scroll-arrow">↓</span>
+  </div>
+</section>
+
+<!-- ═══ WARDEN ═══ -->
+<section id="warden" class="warden-section">
+  <div class="section-inner">
+    <div class="warden-grid">
+      <div class="warden-photo-wrap">
+        <div class="warden-photo-bg"></div>
+        <div class="warden-photo">
+          <img src="./assets/warden.png" alt="warden" class="warden-img">
+        </div>
+        <div class="warden-badge">Chief Warden · Govt. BC Hostel</div>
+      </div>
+
+      <div class="warden-info">
+        <div class="section-tag">Meet Our Warden</div>
+        <h2 class="warden-name">Sri. Surendra Kumar</h2>
+        <div class="warden-title">M.A., B.Ed · Warden, Government BC Hostel</div>
+        <p class="warden-desc">
+          With over <strong>10+ years of dedicated service</strong> to the Backward Classes community, our respected Warden Sir has transformed the hostel into a nurturing academic environment. Under his leadership, numerous students have gone on to prestigious universities, government services, and professional careers.
+          <br><br>
+          He believes that every student deserves equal opportunity regardless of their economic background, and has introduced many welfare programs to support students through their academic journey.
+        </p>
+        <div class="warden-meta">
+          <div class="meta-item"><div class="val">15+</div><div class="key">Years Experience</div></div>
+          <div class="meta-item"><div class="val">500+</div><div class="key">Students Mentored</div></div>
+          <div class="meta-item"><div class="val">3</div><div class="key">Awards Received</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOD MENU ═══ -->
+<section id="menu" class="menu-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-tag">Weekly Schedule</div>
+      <h2 class="section-title">Daily Food Menu</h2>
+      <p class="section-sub">Nutritious, balanced meals prepared fresh daily — as per Government of Andhra Pradesh BC Welfare Department schedule (w.e.f. 01.06.2023).</p>
+    </div>
+
+    <div class="week-tabs" id="weekTabs">
+      <div class="day-tab active" data-day="0">ఆదివారం<span>Sunday</span></div>
+      <div class="day-tab" data-day="1">సోమవారం<span>Monday</span></div>
+      <div class="day-tab" data-day="2">మంగళవారం<span>Tuesday</span></div>
+      <div class="day-tab" data-day="3">బుధవారం<span>Wednesday</span></div>
+      <div class="day-tab" data-day="4">గురువారం<span>Thursday</span></div>
+      <div class="day-tab" data-day="5">శుక్రవారం<span>Friday</span></div>
+      <div class="day-tab" data-day="6">శనివారం<span>Saturday</span></div>
+    </div>
+
+    <div class="menu-grid" id="menuGrid">
+      <!-- Dynamically populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOD MASTERS ═══ -->
+<section id="masters" class="masters-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-tag">Kitchen Team</div>
+      <h2 class="section-title">Our Food Masters</h2>
+      <p class="section-sub">Meet the dedicated culinary experts who prepare wholesome meals for our students every single day.</p>
+    </div>
+
+    <div class="masters-grid">
+      <!-- Card 1 -->
+      <div class="master-card">
+        <div class="master-photo">
+          <img src="./assets/master1.png" alt="master1" class="master1">
+        </div>
+        <div class="master-info">
+          <div class="master-name">Mr Muni Anna</div>
+          <div class="master-role">Head Cook · Breakfast Specialist</div>
+          <p class="master-desc">Passionate about preparing authentic South Indian breakfasts. Trained in large-scale cooking, ensuring every student starts the day with a nutritious and tasty meal.</p>
+          <div class="master-years">⭐ 12 Years Experience</div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="master-card">
+        <div class="master-photo">
+          <img src="./assets/master2.png" alt="master2" class="master2">
+        </div>
+        <div class="master-info">
+          <div class="master-name">Mrs Jaya Akka</div>
+          <div class="master-role">Senior Cook · Lunch & Meals</div>
+          <p class="master-desc">Specializes in traditional Andhra cuisine with focus on balanced nutrition. Known for maintaining strict hygiene standards and consistent quality in every meal.</p>
+          <div class="master-years">⭐ 8 Years Experience</div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="master-card">
+        <div class="master-photo">
+          <img src="./assets/master3.png" alt="master3" class="master3">
+        </div>
+        <div class="master-info">
+          <div class="master-name">Mr Prasad Anna</div>
+          <div class="master-role">Cook · Dinner & Special Events</div>
+          <p class="master-desc">Expert in preparing variety of dishes for special occasions and festivals. Ensures students feel at home with comfort food and celebrates cultural diversity through cuisine.</p>
+          <div class="master-years">⭐ 8 Years Experience</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ VIDEO ═══ -->
+<section id="video" class="video-section">
+  <div class="section-inner">
+    <div class="section-header" style="text-align:center; max-width:600px; margin: 0 auto 56px;">
+      <div class="section-tag">Virtual Tour</div>
+      <h2 class="section-title">See Our Hostel in Action</h2>
+      <p class="section-sub">Take a virtual walk through our facilities — rooms, dining hall, study areas, and more.</p>
+    </div>
+
+    <div class="video-wrapper">
+      <div class="video-placeholder-text">
+        <div class="play-btn"></div>
+        <p>Demo Video — Government BC Hostel Campus Tour<br><small style="color:#aaa">Upload your video here (YouTube / MP4)</small></p>
+      </div>
+      <div class="video-label">🎬 BC Hostel Campus Tour · 2024</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ LOCATION ═══ -->
+<section id="location" class="location-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-tag">Find Us</div>
+      <h2 class="section-title">Our Location</h2>
+      <p class="section-sub">Centrally located with easy access to schools, colleges, and public transport.</p>
+    </div>
+
+    <div class="location-grid">
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.1251844889402!2d79.55240857321935!3d13.43734430449998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d518594332403%3A0x4b717cccb36625b4!2sGovt%20Bc%20College%20Boys%20Hostel!5e1!3m2!1sen!2sin!4v1771653059275!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div>
+        <div class="address-card">
+          <h3>📍 Hostel Address</h3>
+          <p>
+            Government Backward Classes Hostel<br>
+            Near under bridge, Gate Puttur<br>
+            Puttur, Tirupathi(Dist) – 517583<br>
+            Andhra Pradesh, India
+          </p>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-row">
+            <div class="contact-icon">📞</div>
+            <div class="contact-detail">
+              <div class="label">Phone</div>
+              <div class="value wf-placeholder">9700942902</div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-detail">
+              <div class="label">Email</div>
+              <div class="value wf-placeholder">surendhra@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">🕐</div>
+            <div class="contact-detail">
+              <div class="label">Office Hours</div>
+              <div class="value">Mon – Sat · 9:00 AM – 5:00 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT FORM ═══ -->
+<section id="contact" class="form-section">
+  <div class="section-inner">
+    <div class="section-header" style="text-align:center; max-width:560px; margin:0 auto 48px;">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-sub">Have questions about admission, facilities, or eligibility? Send us a message and we'll get back to you promptly.</p>
+    </div>
+
+    <div class="form-card">
+      <form id="enquiryForm" onsubmit="sendToWhatsApp(event)">
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input id="fullName" type="text" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mobile">Mobile Number *</label>
+            <input id="mobile" type="tel" placeholder="9XXXXXXXXX" maxlength="10" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="your@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="course">Current Class / Course *</label>
+            <select id="course" required>
+              <option value="">Select Class</option>
+              <option value="10th Standard">10th Standard</option>
+              <option value="Intermediate (11th / 12th)">Intermediate (11th / 12th)</option>
+              <option value="Undergraduate (Degree)">Undergraduate (Degree)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="casteCert">Caste Certificate Number</label>
+            <input id="casteCert" type="text" placeholder="Cert. No.">
+          </div>
+
+          <div class="form-group">
+            <label for="district">District *</label>
+            <input id="district" type="text" placeholder="Your district" required>
+          </div>
+
+          <div class="form-group full">
+            <label for="message">Your Query / Message *</label>
+            <textarea id="message" placeholder="Describe your query or reason for applying..." required></textarea>
+          </div>
+
+        </div>
+
+        <div id="successBanner" style="display:none;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.4);border-radius:12px;padding:16px 20px;margin-bottom:20px;color:#86efac;font-size:14px;text-align:center;">
+          ✅ Redirecting to WhatsApp... Your enquiry will be sent to the Warden.
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">
+          <span id="btnText">📨 Submit Enquiry via WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-text">Govt. BC Hostel</div>
+        <div class="logo-sub">Backward Classes Department · AP</div>
+        <p>Empowering backward class students through free residential education facilities since [Year]. A Government of Andhra Pradesh initiative.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#warden">About Warden</a></li>
+          <li><a href="#menu">Food Menu</a></li>
+          <li><a href="#masters">Food Masters</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Facilities</h4>
+        <ul>
+          <li><a href="#">Free Accommodation</a></li>
+          <li><a href="#menu">Free Meals</a></li>
+          <li><a href="#">Wi-Fi Access</a></li>
+          <li><a href="#">Study Hall</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Admission Process</a></li>
+          <li><a href="#">Eligibility Criteria</a></li>
+          <li><a href="#">Download Forms</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="footer-bottom">
+        <p>© 2024 Government BC Hostel · All Rights Reserved · Backward Classes Welfare Dept., AP</p>
+      <p>Designed & Built by Ramkumar Pathapalem with ❤️</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
