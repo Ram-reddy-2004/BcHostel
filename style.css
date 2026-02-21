@@ -534,6 +534,10 @@
   @media(max-width:600px){
     .nav-btn { display: none; }
     .hero { align-items: flex-start; padding-top: 80px; }
+    .hero-badge { margin-bottom: 16px; }
+    .hero-stats { margin-top: 24px; }
+    .hero-visual { flex-direction: row; gap: 12px; }
+    .hero-visual .hostel-card-preview { flex: 1; padding: 20px; }
     .hero-content { padding: 20px 24px 60px; gap: 40px; }
     .hero h1 { font-size: 32px; }
     .hero-desc { max-width: 100%; }
