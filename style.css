@@ -533,9 +533,11 @@
   }
   @media(max-width:600px){
     .nav-btn { display: none; }
-    .hero-content { padding: 40px 24px; }
-    .hero h1 { font-size: 28px; }
+    .hero { align-items: flex-start; padding-top: 80px; }
+    .hero-content { padding: 20px 24px 60px; gap: 40px; }
+    .hero h1 { font-size: 32px; }
     .hero-desc { max-width: 100%; }
+    .hero-stats { grid-template-columns: 1fr; gap: 12px; }
     .section-inner { padding: 40px 16px; }
     .footer-grid { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; text-align: center; }
